@@ -1,4 +1,4 @@
-let scuber = {drivers: [], passengers: [], trips: []}
+let store = {drivers: [], passengers: [], trips: []}
 
 let driverId = 0
 let passengerId = 0
@@ -8,6 +8,6 @@ class Driver {
   constructer(name) {
     this.id = ++driverId
     this.name = name
-    scuber.drivers.push(this);
+    store.drivers.push(this);
   }
 }
