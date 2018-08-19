@@ -8,6 +8,6 @@ class Driver {
   constructer(name) {
     this.id = ++driverId
     this.name = name
-    scuber.drivers.push(this)
+    scuber.drivers.push(this);
   }
 }
